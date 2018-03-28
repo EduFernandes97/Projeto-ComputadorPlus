@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-  max-width: 50px; 
+  max-width: 50px;
   border-width: 3px;
   border-color: #4a423e;
 }
@@ -27,7 +27,7 @@ a {
 
 a:hover {
   color: #4a423e;
-  
+
 }
 
 h1,
@@ -40,11 +40,11 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #4a423e !important;
+  background-color: #3cb371  !important;
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color:  #3cb371  !important;
 }
 
 .text-faded {
