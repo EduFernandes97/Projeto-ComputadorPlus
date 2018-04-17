@@ -19,6 +19,16 @@
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
+  
+  $("#QueroAjudarb").click(function(){
+	 //$("#QueroAjudar").toggle();
+	 alert("1");
+  });
+  
+  $( "#QueroAjudarb" ).on( "click", function() {
+	 alert("1");
+});
+ 
 
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
@@ -71,5 +81,7 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+  
+
 
 })(jQuery); // End of use strict
